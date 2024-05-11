@@ -1,0 +1,87 @@
+
+.page_login {
+    margin: 0;
+    padding: 0;
+    background: url("../../images/bg_image.jpg") center/cover no-repeat fixed;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+  }
+  
+  .paperContainer.MuiPaper-root{
+    border-width: 0.5px;
+    margin-top: 90px;
+    min-height: 60vh;
+    width:100%;
+  }
+
+  .heading.MuiTypography-root{
+    text-align: center;
+    font-size: 1.65rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  
+  .form {
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+  }
+  
+  .textfield {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  
+  .errorText {
+    display: flex;
+    justify-content: center;
+    color: red;
+  }
+  
+  .checkboxContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .rememberMeLabel {
+    display: flex;
+    align-items: center;
+  }
+  
+  .forgotPasswordLink {
+    color: blue;
+    margin-left: 65px;
+    font-size: medium;
+  }
+  
+  .loginButton.MuiButtonBase-root-MuiButton-root {
+    background-color: rgba(46,182,174,1);
+    margin-top: 50px;
+  }
+  
+  .signupText {
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  
+  .signupButton {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="30 seconds">
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
+    </root>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_FILE}</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_FILE}.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>10MB</maxFileSize>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <springProperty scope="context" name="LOG_FILE" source="logging.file" />
+    <springProperty scope="context" name="LOG_LEVEL" source="logging.level.root" />
+
+    <springProfile name="dev">
+        <root level="${LOG_LEVEL:-DEBUG}">
+            <appender-ref ref="CONSOLE" />
+        </root>
+    </springProfile>
+
+    <springProfile name="qa">
+        <root level="${LOG_LEVEL:-INFO}">
+            <appender-ref ref="FILE" />
+        </root>
+    </springProfile>
+
+    <root level="${LOG_LEVEL:-WARN}">
+        <appender-ref ref="FILE" />
+    </root>
+
+    <root level="${LOG_LEVEL:-ERROR}">
+        <appender-ref ref="FILE" />
+    </root>
+
+</configuration>

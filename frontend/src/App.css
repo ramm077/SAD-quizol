@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(0, 0, 0) !important;
+  font-family: 'slick';
+  font-size: x-large;
+}
+

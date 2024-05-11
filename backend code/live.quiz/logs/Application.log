@@ -1,0 +1,164 @@
+2024-01-16 20:10:08.355 [main] INFO  c.v.l.service.user.UserService - Updating user details by id1
+2024-01-16 20:10:08.547 [main] INFO  c.v.l.service.user.UserService - Reactivating inactive user
+2024-01-16 20:10:08.575 [main] INFO  c.v.l.service.user.UserService - Deleting an active user by id1
+2024-01-16 20:10:36.519 [main] INFO  c.v.l.exception.ExceptionUtility - throwInvalidResourceDetailsException is used!
+2024-01-16 20:11:12.282 [main] INFO  c.v.l.s.user.AuthenticationService - creating user
+2024-01-16 20:11:12.396 [main] INFO  c.v.l.security.CustomUserDetails - Inside CustomUserDetails, setting user!
+2024-01-16 20:11:12.562 [main] INFO  c.v.l.s.user.AuthenticationService - Creating user with details
+2024-01-16 20:11:12.566 [main] INFO  c.v.l.s.user.AuthenticationService - creating user
+2024-01-16 20:11:34.799 [main] INFO  c.v.l.s.s.UpdateSchedulerService - Updating the schedule with id1
+2024-01-16 20:11:34.894 [main] INFO  c.v.l.s.s.UpdateSchedulerService - Deleting the schedule with id1
+2024-01-16 20:11:52.919 [main] INFO  c.v.l.s.s.ScheduleReminderService - sending quiz scheduled mail to responders
+2024-01-16 20:11:53.015 [main] INFO  c.v.l.s.s.ScheduleReminderService - Scheduling reminder to be executed 45 minutes before start time
+2024-01-16 20:11:53.019 [main] INFO  c.v.l.s.s.ScheduleReminderService - Reminder time:45
+2024-01-16 20:11:53.046 [main] INFO  c.v.l.s.s.ScheduleReminderService - Sending updated mail to responders along with scheduled mail for new users and cancellation mail for deleted users
+2024-01-16 20:11:53.086 [main] INFO  c.v.l.s.s.ScheduleReminderService - Scheduling reminder mail
+2024-01-17 13:48:49.795 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-01-17 13:48:49.888 [restartedMain] INFO  c.v.livequiz.LiveQuizApplication - Starting LiveQuizApplication using Java 21.0.1 with PID 23060 (C:\Users\chandramouli.k\Desktop\Sankranti Day Pull\backend code\live.quiz\target\classes started by chandramouli.k in C:\Users\chandramouli.k\Desktop\Sankranti Day Pull\backend code\live.quiz)
+2024-01-17 13:48:49.889 [restartedMain] INFO  c.v.livequiz.LiveQuizApplication - No active profile set, falling back to 1 default profile: "default"
+2024-01-17 13:48:49.954 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-17 13:48:49.954 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-17 13:48:51.765 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-17 13:48:51.983 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 210 ms. Found 8 JPA repository interfaces.
+2024-01-17 13:48:53.833 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-01-17 13:48:53.848 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-17 13:48:53.852 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-01-17 13:48:53.853 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-17 13:48:53.935 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-01-17 13:48:53.937 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3981 ms
+2024-01-17 13:48:54.679 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-17 13:48:54.783 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-17 13:48:54.834 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-01-17 13:48:55.073 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-17 13:48:55.101 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-01-17 13:48:55.685 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65f69ec1
+2024-01-17 13:48:55.689 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-01-17 13:48:59.366 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-17 13:48:59.409 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.410 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "option" does not exist, skipping
+2024-01-17 13:48:59.411 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.412 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "option_response_chosen_options" does not exist, skipping
+2024-01-17 13:48:59.413 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.413 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "option_response_chosen_options" does not exist, skipping
+2024-01-17 13:48:59.414 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.415 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "question_option_list" does not exist, skipping
+2024-01-17 13:48:59.416 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.416 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "question_option_list" does not exist, skipping
+2024-01-17 13:48:59.417 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.418 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "quiz_questions" does not exist, skipping
+2024-01-17 13:48:59.419 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.419 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "quiz_questions" does not exist, skipping
+2024-01-17 13:48:59.420 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.420 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "response" does not exist, skipping
+2024-01-17 13:48:59.421 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.422 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "response" does not exist, skipping
+2024-01-17 13:48:59.423 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.423 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "response" does not exist, skipping
+2024-01-17 13:48:59.424 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.424 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "response" does not exist, skipping
+2024-01-17 13:48:59.425 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.425 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "response" does not exist, skipping
+2024-01-17 13:48:59.426 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.426 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "scheduler" does not exist, skipping
+2024-01-17 13:48:59.427 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.428 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "scheduler_user_list" does not exist, skipping
+2024-01-17 13:48:59.429 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.429 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - relation "scheduler_user_list" does not exist, skipping
+2024-01-17 13:48:59.430 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.430 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "option" does not exist, skipping
+2024-01-17 13:48:59.431 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.431 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "option_response_chosen_options" does not exist, skipping
+2024-01-17 13:48:59.432 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.432 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "option_response" does not exist, skipping
+2024-01-17 13:48:59.433 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.434 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "question" does not exist, skipping
+2024-01-17 13:48:59.434 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.435 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "question_option_list" does not exist, skipping
+2024-01-17 13:48:59.436 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.436 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "quiz" does not exist, skipping
+2024-01-17 13:48:59.437 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.437 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "quiz_questions" does not exist, skipping
+2024-01-17 13:48:59.438 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.439 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "response" does not exist, skipping
+2024-01-17 13:48:59.440 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.440 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "scheduler" does not exist, skipping
+2024-01-17 13:48:59.441 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.441 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "scheduler_user_list" does not exist, skipping
+2024-01-17 13:48:59.442 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.442 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "text_response" does not exist, skipping
+2024-01-17 13:48:59.444 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2024-01-17 13:48:59.444 [restartedMain] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "users" does not exist, skipping
+2024-01-17 13:48:59.698 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-17 13:49:01.205 [restartedMain] INFO  c.v.livequiz.config.SecurityConfig - PasswordEncoder bean created.
+2024-01-17 13:49:01.272 [restartedMain] INFO  c.v.livequiz.config.SecurityConfig - AuthenticationManager bean created.
+2024-01-17 13:49:01.347 [restartedMain] INFO  c.v.livequiz.config.SecurityConfig - Inside SecurityConfig, authenticationProvider method!
+2024-01-17 13:49:01.386 [restartedMain] INFO  c.v.livequiz.config.SecurityConfig - AuthenticationProvider bean created.
+2024-01-17 13:49:02.952 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-17 13:49:04.400 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-01-17 13:49:04.456 [restartedMain] INFO  c.v.livequiz.config.SecurityConfig - Inside SecurityConfig, securityFilterChain method!
+2024-01-17 13:49:04.477 [restartedMain] INFO  c.v.livequiz.config.SecurityConfig - Security filter chain configured successfully.
+2024-01-17 13:49:04.585 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@46fdb7c0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75c05e0b, org.springframework.security.web.context.SecurityContextHolderFilter@154912f3, org.springframework.security.web.header.HeaderWriterFilter@128158b6, org.springframework.web.filter.CorsFilter@1c500d3a, org.springframework.security.web.authentication.logout.LogoutFilter@644505a0, com.valuelabs.livequiz.exception.SecurityExceptionHandlerFilter@79ab0d8b, com.valuelabs.livequiz.security.JwtAuthFilter@89b51e1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66ecd76b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f4d43b3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@122387f2, org.springframework.security.web.session.SessionManagementFilter@48b164cf, org.springframework.security.web.access.ExceptionTranslationFilter@1f621e87, org.springframework.security.web.access.intercept.AuthorizationFilter@473ad040]
+2024-01-17 13:49:04.661 [restartedMain] INFO  c.v.livequiz.config.SecurityConfig - Inside SecurityConfig, secretKey method!
+2024-01-17 13:49:04.664 [restartedMain] INFO  c.v.livequiz.config.SecurityConfig - Inside SecurityConfig, base64EncodedSecretKey method!
+2024-01-17 13:49:04.690 [restartedMain] INFO  c.v.livequiz.config.SecurityConfig - Successfully generated the secretKey, returning the secretKey string!
+2024-01-17 13:49:04.691 [restartedMain] INFO  c.v.livequiz.config.SecurityConfig - Successfully created the decodedKey, returning it using Signature HmacSHA256 method!
+2024-01-17 13:49:06.749 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #3 of file [C:\Users\chandramouli.k\Desktop\Sankranti Day Pull\backend code\live.quiz\target\classes\data.sql]: INSERT INTO question (question_id,question_text, question_type, created_at, created_by, in_active) VALUES (1,'What is the capital of France?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (2,'Who wrote "Romeo and Juliet"?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (3,'What is the largest mammal on Earth?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (4,'Which planet is known as the Red Planet?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (5,'In which year did World War II end?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (6,'What is the chemical symbol for gold?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (7,'Who painted the Mona Lisa?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (8,'What is the powerhouse of the cell?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (9,'Who developed the theory of relativity?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (10,'What is the currency of Japan?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE) ON CONFLICT (question_id) DO NOTHING
+2024-01-17 13:49:06.765 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-17 13:49:06.989 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-01-17 13:49:07.015 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-01-17 13:49:07.033 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-01-17 13:49:07.176 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-01-17 13:49:07.263 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #3 of file [C:\Users\chandramouli.k\Desktop\Sankranti Day Pull\backend code\live.quiz\target\classes\data.sql]: INSERT INTO question (question_id,question_text, question_type, created_at, created_by, in_active) VALUES (1,'What is the capital of France?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (2,'Who wrote "Romeo and Juliet"?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (3,'What is the largest mammal on Earth?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (4,'Which planet is known as the Red Planet?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (5,'In which year did World War II end?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (6,'What is the chemical symbol for gold?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (7,'Who painted the Mona Lisa?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (8,'What is the powerhouse of the cell?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (9,'Who developed the theory of relativity?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (10,'What is the currency of Japan?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE) ON CONFLICT (question_id) DO NOTHING
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1773)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:960)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:464)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1358)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1347)
+	at com.valuelabs.livequiz.LiveQuizApplication.main(LiveQuizApplication.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #3 of file [C:\Users\chandramouli.k\Desktop\Sankranti Day Pull\backend code\live.quiz\target\classes\data.sql]: INSERT INTO question (question_id,question_text, question_type, created_at, created_by, in_active) VALUES (1,'What is the capital of France?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (2,'Who wrote "Romeo and Juliet"?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (3,'What is the largest mammal on Earth?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (4,'Which planet is known as the Red Planet?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (5,'In which year did World War II end?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (6,'What is the chemical symbol for gold?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (7,'Who painted the Mona Lisa?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (8,'What is the powerhouse of the cell?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (9,'Who developed the theory of relativity?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE), (10,'What is the currency of Japan?', 'MULTIPLE', CURRENT_TIMESTAMP, 'Admin', FALSE) ON CONFLICT (question_id) DO NOTHING
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54)
+	at org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer.runScripts(DataSourceScriptDatabaseInitializer.java:87)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.runScripts(AbstractScriptDatabaseInitializer.java:146)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyScripts(AbstractScriptDatabaseInitializer.java:108)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyDataScripts(AbstractScriptDatabaseInitializer.java:102)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.initializeDatabase(AbstractScriptDatabaseInitializer.java:77)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.afterPropertiesSet(AbstractScriptDatabaseInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1820)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1769)
+	... 21 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: invalid input syntax for type smallint: "MULTIPLE"
+  Position: 144
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
+	... 31 common frames omitted
